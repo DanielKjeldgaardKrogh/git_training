@@ -1,0 +1,14 @@
+
+## cronR job
+## id:   job2
+## tags: 
+## desc: Our second cronR job
+0 4 15 * * /usr/local/lib/R/bin/Rscript '~/git_training/scheduling/Given_Files/increment_one.R'  >> '~/git_training/scheduling/Given_Files/increment_one.log' 2>&1
+
+## cronR job
+## id:   job1
+## tags: 
+## desc: Our first cronR job
+0-59 * * * 7 /usr/local/lib/R/bin/Rscript '~/git_training/scheduling/Given_Files/increment_one.R'  >> '~/git_training/scheduling/Given_Files/increment_one.log' 2>&1
+
+ 

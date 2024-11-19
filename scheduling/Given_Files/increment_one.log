@@ -1,0 +1,37 @@
+Error in gzfile(file, mode) : cannot open the connection
+Calls: saveRDS -> gzfile
+In addition: Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file '/home/rstudio/scheduling/increment_one.rds', probable reason 'No such file or directory'
+Execution halted
+Error in gzfile(file, mode) : cannot open the connection
+Calls: saveRDS -> gzfile
+In addition: Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file '/home/rstudio/scheduling/increment_one.rds', probable reason 'No such file or directory'
+Execution halted
+Error in gzfile(file, mode) : cannot open the connection
+Calls: saveRDS -> gzfile
+In addition: Warning message:
+In gzfile(file, mode) :
+  cannot open compressed file '/home/rstudio/scheduling/increment_one.rds', probable reason 'No such file or directory'
+Execution halted
+[1] "2024-11-17 14:26:01: Value of increment_one.rds is 1"
+Error in gzfile(file, "rb") : cannot open the connection
+Calls: readRDS -> gzfile
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/home/rstudio/scheduling/increment_one.rds', probable reason 'No such file or directory'
+Execution halted
+Error in gzfile(file, "rb") : cannot open the connection
+Calls: readRDS -> gzfile
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/home/rstudio/scheduling/increment_one.rds', probable reason 'No such file or directory'
+Execution halted
+Error in gzfile(file, "rb") : cannot open the connection
+Calls: readRDS -> gzfile
+In addition: Warning message:
+In gzfile(file, "rb") :
+  cannot open compressed file '/home/rstudio/scheduling/increment_one.rds', probable reason 'No such file or directory'
+Execution halted
