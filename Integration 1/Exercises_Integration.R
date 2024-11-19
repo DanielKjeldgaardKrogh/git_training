@@ -87,11 +87,20 @@ series
 
 
 # Exercise 6
-timestamp <- lubridate::ymd_hms(names(series$`Time Series (60min)`), tz = "US/Eastern")
-
-
-
+timestamp <- lubridate::ymd_hms(names(series$`Time Series (60min)`), tz = "America/New_York")
 timestamp <- format(timestamp, tz = "UTC")
+df <- tibble(timestamp = timestamp, open = NA, high = NA, low = NA, close = NA, volume = NA)
+
+for (i in 1:nrow(df)) {
+  df[i,-1] <-as.data.frame(series$`Time Series (60min)`[[i]])
+}
+
+psql_manipulate(cred = cred_psql_docker,
+                query_string = "create schema intg2;")
+
+psql_manipulate(cred = cred_psql_docker,
+                query_string = " create table )
+
 
 OlsonNames()
 
