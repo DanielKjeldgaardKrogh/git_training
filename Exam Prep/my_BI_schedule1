@@ -1,0 +1,21 @@
+
+
+## cronR job
+## id:   job1
+## tags: 
+## desc: Our first cronR job
+0-59 * * * * /usr/local/lib/R/bin/Rscript '/home/rstudio/git_training/scheduling/Given_Files/increment_one.R'  >> '/home/rstudio/git_training/scheduling/Given_Files/increment_one.log' 2>&1
+
+## cronR job
+## id:   job_ex9
+## tags: 
+## desc: Exercise 9 cron job
+0-59 * * * 3 /usr/local/lib/R/bin/Rscript '/home/rstudio/git_training/scheduling/Given_Files/increment_one.R'  >> '/home/rstudio/git_training/scheduling/Given_Files/increment_one.log' 2>&1
+
+## cronR job
+## id:   job_ex11
+## tags: 
+## desc: Exercise 11 cron job
+0 4 15 * 1 /usr/local/lib/R/bin/Rscript '/home/rstudio/git_training/scheduling/Given_Files/increment_one.R'  >> '/home/rstudio/git_training/scheduling/Given_Files/increment_one.log' 2>&1
+
+ 
